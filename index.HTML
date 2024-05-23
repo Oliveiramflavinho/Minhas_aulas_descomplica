@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de HTML5</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f0f0f0;
+        }
+        header, nav, section, footer {
+            margin-bottom: 20px;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #4CAF50;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao meu site</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Contato</a>
+    </nav>
+    <section id="home">
+        <h2>Seção Home</h2>
+        <p>Esta é a seção inicial do nosso site.</p>
+        <img src="https://via.placeholder.com/400" alt="Exemplo de imagem">
+    </section>
+    <section id="sobre">
+        <h2>Seção Sobre</h2>
+        <p>Informações sobre o propósito do site.</p>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+    </section>
+    <section id="contato">
+        <h2>Seção Contato</h2>
+        <p>Entre em contato conosco:</p>
+        <form action="#" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+    <script>
+        console.log("Página carregada com sucesso!");
+    </script>
+</body>
+</html>
